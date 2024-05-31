@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212; /* Karanlık arka plan rengi */
+    color: #ffffff; /* Açık yazı rengi */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #1f1f1f; /* Karanlık header arka plan rengi */
+    color: #ffffff; /* Açık yazı rengi */
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Açık yazı rengi */
+    text-decoration: none;
+}
+
+#hero {
+    background: #333333; /* Koyu arka plan rengi */
+    padding: 50px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    margin-bottom: 20px;
+}
+
+#hero p {
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6f61; /* Çağrı düğmesi için açık renk */
+    color: #ffffff; /* Açık yazı rengi */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#about, #program, #instructors, #contact {
+    margin: 50px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: disc inside;
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #444444; /* Koyu sınır rengi */
+    border-radius: 5px;
+    background-color: #222222; /* Koyu arka plan rengi */
+    color: #ffffff; /* Açık yazı rengi */
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background: #ff6f61; /* Açık düğme rengi */
+    color: #ffffff; /* Açık yazı rengi */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background: #1f1f1f; /* Karanlık footer arka plan rengi */
+    color: #ffffff; /* Açık yazı rengi */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
